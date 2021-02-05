@@ -43,7 +43,7 @@ create text file `0051.rev0.txt`
 ```
 drc print -output=0051.rev0-1.txt -rev=0 -rev=1 0051
 ```
-create text file `0051.rev0-1.txt` with combination revision 0 and 1 with revision indication
+create text file `0051.rev0-1.txt` with combination revision 0 and 1 with revision indication and for that step need to understood changes between documents.
 
 ## TODO
 
