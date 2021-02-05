@@ -1,11 +1,11 @@
-# dvc
+# drc
 document revision control
 
 ## User commands
 
 ### initialize dvc for document `0051`
 ```
-dvc init 0051
+drc init 0051
 ```
 
 create folder:
@@ -16,20 +16,20 @@ create folder:
 
 ### initialize next revision of document
 ```
-dvc newrevision 0051
+drc newrevision 0051
 ```
 create folder `0051-1`
 
 ### printing
 
 ```
-dvc print -output=0051.rev0.txt -rev=0 0051
+drc print -output=0051.rev0.txt -rev=0 0051
 ```
 create text file `0051.rev0.txt`
 
 
 ```
-dvc print -output=0051.rev0-1.txt -rev=0 -rev=1 0051
+drc print -output=0051.rev0-1.txt -rev=0 -rev=1 0051
 ```
 create text file `0051.rev0-1.txt` with combination revision 0 and 1 with revision indication
 
@@ -44,14 +44,14 @@ create text file `0051.rev0-1.txt` with combination revision 0 and 1 with revisi
 ```
 |---------------------|-----|
 |HEADER               | REV |
-|---------------------|-----|
+|---------------------+-----|
 |                     |     |
 |                     |     |
 |PAGE                 |     |
 |                     |     |
 |                     |     |
-|---------------------|-----|
+|---------------------+-----|
 |FOOTER               |     |
-|---------------------|-----|
+|---------------------+-----|
 
 ```
